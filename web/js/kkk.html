@@ -1,0 +1,48 @@
+<head>
+    <title>运维平台</title>
+    <link rel="stylesheet" type="text/css" href="/static/Css/Monitor/displayf5.css">
+    <link rel="stylesheet" type="text/css" href="/static/Css/Public/header.css">
+    <link rel="stylesheet" type="text/css" href="/static/Css/Public/menu.css">
+</head>
+<h1 align="center">
+    <font color="blue">F5运行监控</font>
+</h1>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>javascript引用方式</title>
+    <table class="gridtable fr">
+        <script type="text/javascript" src="/static/Js/jquery-2.2.2.min.js"></script>
+        <script>
+            $(function () {
+                var data = {};
+                var successfn = function (jdata) {
+                    $(".gridtable").empty();
+                    var _HTML = "<tr><td>hash信息</td></tr>";
+                    console.log(jdata);
+                    for (var k in jdata) {
+                        _HTML = _HTML + '<tr><td>' + k + '=>' + jdata[k].ip + '=>' + jdata[k].db +
+                            '</td></tr>'
+                    };
+                    $(".gridtable").html(_HTML);
+                };
+                var errorfn = function () {
+                    alert("数据获取出错");
+                };
+                $.ajax({
+                    type: "get",
+                    data: data,
+                    url: "/returnhash/",
+                    dataType: "json",
+                    success: function (d) {
+                        successfn(d);
+                    },
+                    error: function (e) {
+                        errorfn(e);
+                    }
+                });
+            });
+        </script>
+    </table>
+</head>
+</head>

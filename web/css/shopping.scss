@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+
+    .taobao{
+        padding-top: 26px;
+        width: 1490px;
+        margin: auto;
+        position: relative;
+        
+        h1{
+            color: #ff4200;
+            font-size: 34px;
+        }
+        span{
+            font-size: 26px;
+            position: absolute;
+            top: 35px;
+            left: 110px;
+           
+        }
+        .zhunjin{
+            position: relative;
+            top: -35px;
+            left: 460px;
+        }
+
+    }
+
+    .jiesuan{
+        width: 1490px;
+        margin: auto;
+        position: relative;
+        border-bottom: 3px solid #cccccc;
+        
+        .allgoods{
+            color: #ff4200;
+            width: 164px;
+            font-size: 20px;
+            line-height: 60px;
+        }
+        .truegoods{
+            color: #ff4200;
+            width: 264px;
+            font-size: 20px;
+            line-height: 60px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            .btnjiesuan{
+                width: 72px;
+                height: 30px;
+                margin-left: 10px;;
+            }
+        }
+    }
+
+    ul{
+        
+        width: 1490px;
+        margin: auto;
+        margin-top: 60px;
+        
+        .biaotou{
+      
+            position: relative;
+            .radio{
+
+                position: absolute;
+                top: 0;
+                left: 35px;
+            }
+            .xinxi{
+                position: absolute;
+                top: 0;
+                left: 230px;
+            }
+            .danjia{
+                position: absolute;
+                top: 0;
+                left: 720px;
+            }
+            .shulian{
+                position: absolute;
+                top: 0;
+                left: 912px;
+            }
+            .jine{
+                position: absolute;
+                top: 0;
+                left: 1082px;
+            }
+            .caozuo{
+                position: absolute;
+                top: 0;
+                right: 82px;
+            }
+        }
+        .tt{
+            height: 50px;
+        }
+        li{
+            width: 1490px;
+            height: 166px;
+            list-style: none;
+            border: 1px solid #cccccc;
+            margin-bottom: 70px;
+            padding-left: 32px;
+            position: relative;
+            background-color: #fcfcfc;
+            .readio{
+                width: 30px;
+                height: 30px;
+                position: absolute;
+                top: 60px;
+                left: 30px;
+            }
+            img{
+                width: 104px;
+                height: 104px;
+                border: #cccccc 1px solid;
+                margin: 25px 0  0 50px;
+            }
+            h3{
+                width: 256px;
+                position: absolute;
+                top: 60px;
+                left: 226px;
+                font-size: 16px;
+            }
+            .price{
+                position: absolute;
+                top: 60px;
+                left: 700px;
+            }
+            .jiajian{
+                width: 115px;
+                height: 30px;
+                box-sizing: border-box;
+                position: absolute;
+                top: 58px;
+                left: 890px;
+                button{
+                    width: 23px;
+                    height: 30px;
+                }
+                input{
+                    width: 28px;
+                    text-align: center;
+                    height: 30px;
+                   
+                }
+
+            }
+
+            .zongjia{
+                position: absolute;
+                top: 60px;
+                left: 1043px;
+            }
+
+            .shanchu{
+                width: 40px;
+                height: 30px;
+                position: absolute;
+                top: 60px;
+                right: 120px;
+            }
+
+        }
+    }
+}

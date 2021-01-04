@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+}
+body .top {
+  width: 1110px;
+  height: 25px;
+  margin: auto;
+  position: relative;
+}
+body .top .nav a {
+  padding: 0px 6px 0px 6px;
+  line-height: 25px;
+  font-size: 12px;
+  line-height: 25px;
+  text-align: center;
+  color: #999999;
+}
+body .top .nav .list {
+  padding-left: 426px;
+}
+body .top .topimg {
+  width: 1110px;
+  border-radius: 0 0 20% 20%;
+}
+body .top .btn {
+  width: 444px;
+  height: 45px;
+  font-size: 18px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body .top .btn button {
+  line-height: 30px;
+}
+body .top .img {
+  margin-top: 20px;
+  width: 420px;
+  height: 420px;
+  border: 2px solid #cccccc;
+}
+body .top .img img {
+  width: 100%;
+  height: 100%;
+}
+body .top .daohan button a {
+  display: block;
+  width: 148px;
+  height: 45px;
+  line-height: 45px;
+  color: white;
+}
+body .top .goodsname {
+  position: absolute;
+  top: 180px;
+  left: 458px;
+}
+body .top .goodsname h6 {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+body .top .goodsname .price {
+  width: 608px;
+  height: 60px;
+  font-size: 18px;
+  background-color: #f0efef;
+  line-height: 60px;
+  padding-left: 15px;
+  margin-top: 30px;
+}
+body .top .goodsname .price span {
+  color: red;
+  font-size: 24px;
+  padding-left: 30px;
+}
+body .top .goodsname .inputnum {
+  position: relative;
+}
+body .top .goodsname .inputnum input {
+  width: 80px;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 77px;
+}
+body .top .goodsname .allnum span {
+  color: red;
+  font-size: 26px;
+}
+body .top .goodsname .btnl,
+body .top .goodsname .btnr {
+  width: 190px;
+  height: 62px;
+  border: none;
+  margin-right: 40px;
+  margin-top: 30px;
+  border-radius: 20%;
+}
+body .top .goodsname span {
+  font-size: 18px;
+  color: #cccccc;
+  margin: 15px 0 15px 0;
+}
+body .top .goodsname .btnl {
+  background-color: #ffeded;
+  color: red;
+  margin-top: 40px;
+}
+body .top .goodsname .btnr {
+  background-color: red;
+  color: white;
+  margin-top: 40px;
+}
+body .top .goodsinfo {
+  width: 1110px;
+  border: 2px solid #cccccc;
+  margin-top: 30px;
+}
+body .top .goodsinfo .goodsinfo1 {
+  color: #cccccc;
+  width: 1106px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  border-bottom: 2px solid #cccccc;
+}
+body .top .goodsinfo p {
+  font-size: 30px;
+  color: #cccccc;
+}
+body .top .goodsinfo p span {
+  font-size: 22px;
+}
+body .top .goods_intorduce {
+  width: 1110px;
+  border: 1px solid #999999;
+  margin-top: 40px;
+}

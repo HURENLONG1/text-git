@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to register</title>
+</head>
+<style type="text/css">
+
+    body{
+        background-color: cadetblue;
+    }
+    #house {
+        background-color: #F0F8FF;
+        margin-top: 30px;
+        border: 1px solid #646464;
+        ;
+    }
+
+    #register {
+        width: 410px;
+        margin-left: 400px;
+        margin-top: 30px;
+        margin: auto;
+
+
+    }
+
+    #ge {
+        width: 300px;
+        height: 43px;
+        border: coral;    
+    }
+
+    span{
+        font-size: 6px;
+        color: #cccccc;
+    }
+
+    #phonenum{
+        margin-top: 33px;
+    }
+
+
+</style>
+
+<body>
+    <p style="font: '微软雅黑';font-size: large;"><b>欢迎您注册,成为天猫客户!</b></p>
+    <div id="house">
+
+        <table id="register">
+            <tr>
+                <td>
+                    <p>手机号码</p>
+                </td>
+                <td><input placeholder="请输入您的手机号码" id="phonenum"><br>
+                <span>请输入您的十一位手机号码</span> </td>
+                
+            </tr>
+            <tr>
+                <td>
+                    <p>登录密码</p>
+                </td>
+                <td><input type="password" placeholder="请输入您的密码" id="password1"></td>
+                
+            </tr>
+            <tr>
+                <td>
+                    <p>确认密码</p>
+                </td>
+                <td><input type="password" placeholder="再次输入密码" id="password2"><br>
+                <span>请输入大小写字母和数字组成的6~10位字符组成的密码</span>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2"> <input type="submit" id="ge" value="注册" /></td>
+            </tr>
+         
+           
+        </table>
+       
+
+    </div>
+</body>
+<script src="../js/jquery.js"></script>
+<script src="../js/regist.js"></script>
+
+
+</html>

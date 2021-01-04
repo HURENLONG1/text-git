@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            border-radius: 50%;
+            position: absolute;
+            top: 500px;
+            left: 10;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="box"></div>
+    <button class="btn" >go</button>
+    <input type="checkbox" class="s" >
+</body>
+
+
+<script src="../js/jquery.js"></script>
+<script>
+    var box = $(".box");
+    var btn = $(".btn");
+    var s = $("checkbox");
+    s.checkbox = true
+  
+    btn.click(function(){
+        s.attr("checked",'true')
+        box.animate({top:0}, 8000, "linear")
+    })
+</script>
+
+</html>
